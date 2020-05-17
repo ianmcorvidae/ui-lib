@@ -16,7 +16,8 @@ import {
 } from "./AnnouncerConstants";
 import CloseIcon from "@material-ui/icons/Close";
 import IconButton from "@material-ui/core/IconButton";
-import { Snackbar, useTheme } from "@material-ui/core";
+import Snackbar from "@material-ui/core/Snackbar";
+import useTheme from "@material-ui/core/styles/useTheme";
 import Alert from "@material-ui/lab/Alert";
 
 function getTextColor(theme, severity) {

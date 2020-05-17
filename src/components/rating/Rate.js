@@ -9,7 +9,9 @@ import numeral from "numeral";
 import Rating from "@material-ui/lab/Rating";
 
 import IconButton from "@material-ui/core/IconButton";
-import { Tooltip, Typography, withStyles } from "@material-ui/core";
+import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@material-ui/core/Typography";
+import withStyles from "@material-ui/core/styles/withStyles";
 
 import DeleteIcon from "@material-ui/icons/Delete";
 

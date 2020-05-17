@@ -22,7 +22,8 @@
 
 import React, { useState } from "react";
 
-import { Menu, IconButton } from "@material-ui/core";
+import Menu from "@material-ui/core/Menu";
+import IconButton from "@material-ui/core/IconButton";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 
 import build from "../../util/DebugIDUtil";
